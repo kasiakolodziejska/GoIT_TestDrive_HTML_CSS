@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- Lekcja 3 -->
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TestDrive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section class="main-page">
+      <div class="wrapper">
+        <img src="./img/logo.png" alt="goit logo" class="main-page-logo" />
+        <div class="main-page-container">
+          <h2 class="main-page-title">Wycieczki w Polsce</h2>
+          <h1 class="main-page-city-name">Warszawa</h1>
+          <p class="main-page-description">
+            Warszawa, od roku 1592 pełni rolę stolicy Polski. Jest miastem
+            pełnym sprzeczności i fascynujących kontrastów. W oczach wielu,
+            nazywana miastem niezniszczalnym, o magicznym duchu nieistniejących
+            już miejsc. Choć cień, trudnych chwil walki o wolność oraz odbyte
+            wojny, kładzie się na historii tego miejsca, to przykładem
+            nadzwyczajnej nieugiętości stolicy jest jej rekonstruowane Stare
+            Miasto. W pełni odnowione i uhonorowane wpisem na listę światowego
+            dziedzictwa UNESCO.
+          </p>
+          <button class="registration-btn">Zarejestruj się</button>
+        </div>
+      </div>
+    </section>
+    <!-- Lekcja 4 -->
+    <section class="gallery-page">
+      <img
+        src="./img/city-logo.png"
+        alt="herb warszawy"
+        class="gallery-page=logo"
+      />
+      <h3 class="gallery-page-title">Warszawa - niesamowita stolica!</h3>
+      <div class="wrapper">
+        <div class="gallery-container">
+          <div class="gallery-item">
+            <img
+              src="./img/place-1.png"
+              alt="Muzeum Pałacu Króla Jana III w Wilanowie"
+              class="gallery-item-img"
+            />
+            <p class="gallery-item-text">
+              Muzeum Pałacu Króla Jana III w Wilanowie
+            </p>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="./img/place-2.png"
+              alt="Stare Miasto"
+              class="gallery-item-img"
+            />
+            <p class="gallery-item-text">Stare Miasto</p>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="./img/place-3.png"
+              alt="Pałac na wyspie"
+              class="gallery-item-img"
+            />
+            <p class="gallery-item-text">Pałac na wyspie</p>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="./img/place-4.png"
+              alt="ałac Kultury i Nauki"
+              class="gallery-item-img"
+            />
+            <p class="gallery-item-text">Pałac Kultury i Nauki</p>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="./img/place-5.png"
+              alt="Archikatedra Warszawska"
+              class="gallery-item-img"
+            />
+            <p class="gallery-item-text">Archikatedra Warszawska</p>
+          </div>
+          <div class="gallery-item">
+            <img
+              src="./img/place-6.png"
+              alt="POLIN Muzeum Historii Żydów Polskich"
+              class="gallery-item-img"
+            />
+            <p class="gallery-item-text">
+              POLIN Muzeum Historii Żydów Polskich
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- Lekcja 5 -->
+    <section class="contacts-page">
+      <h3 class="contacts-page-title">Kontakt</h3>
+      <p class="contacts-page-description">
+        Skontaktuj się z nami, jeśli chcesz zarezerwować wycieczkę. Możesz 
+        również podać swoje preferencje dotyczące wycieczki w specjalnym polu.
+      </p>
+      <form action="" class="contacts-form" netlify>
+        <div class="contacts-form-field">
+          <label for="user-name" class="contact-form-field-label">Imię</label>
+          <input 
+          id="user-name" 
+          type="text" 
+          name="Imię" 
+          class="contacts-form-field-input"
+          />
+        </div>
+        <div class="contacts-form-field">
+          <label for="user-email" class="contact-form-field-label">Email</label>
+          <input 
+          id="user-email" 
+          type="text" 
+          name="Email" 
+          class="contacts-form-field-input"
+          />
+        </div>
+        <div class="contacts-form-field">
+          <label for="user-text" class="contact-form-field-label">Wiadomość</label>
+          <textarea 
+          name="Wiadomość" 
+          id="user-text"
+          class="contacts-form-textarea"
+          ></textarea>
+        </div>
+        <button class="contacts-form-btn">Wyślij wiadomość</button>
+
+      </form>
+    </section>
+  </body>
+</html>
